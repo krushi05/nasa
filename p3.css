@@ -1,0 +1,45 @@
+
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: #28a745;
+    color: white;
+}
+
+.wrong {
+    background-color: #dc3545;
+    color: white;
+}
+
+.explanation-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: hsl(220, 5%, 89%);
+    border-radius: 4px;
+    font-size: 14px;
+    color: #070707;
+    text-align: left;
+}

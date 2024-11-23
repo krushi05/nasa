@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;
+}
+
+.background-container{
+    position:relative;
+    width: 100%;
+    height: 675px;
+    background-image: url('page1.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.text-overlay{
+    position: relative;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white; 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    
+    
+}
+
+
+.sym{
+    font-family: 'italic';
+    font-size: 100px;
+    font-weight:100;
+    margin-bottom: 10px;
+    
+}
+
+.next{
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
